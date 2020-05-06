@@ -1,0 +1,11 @@
+CREATE TABLE coins (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+symbol VARCHAR(56),
+name VARCHAR(56),
+exchange VARCHAR(32),
+active bool,
+field2 varchar(512),
+field3 varchar(512),
+field4 varchar(512),
+created datetime,
+new bool,
+discovered datetime);
